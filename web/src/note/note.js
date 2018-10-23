@@ -5,7 +5,7 @@ var noteDirective = function($compile, $rootScope, $timeout) {
         scope: {
             data: "="
         },
-        templateUrl: "/src/note/note.html",
+        templateUrl: "./src/note/note.html",
 
         link: function($scope, $elem) {
 
