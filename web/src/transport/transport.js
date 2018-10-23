@@ -4,7 +4,7 @@ var transportDirective = function($compile, $rootScope, $timeout) {
         replace: false,
         scope: {
         },
-        templateUrl: "/src/transport/transport.html",
+        templateUrl: "./src/transport/transport.html",
 
         link: function($scope, $elem) {
             if(!$rootScope.playbackEngine) {
