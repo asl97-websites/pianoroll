@@ -8,7 +8,7 @@ var fileInputDirective = function ($compile,
         scope: {
             midiData: "="
         },
-        templateUrl:"/src/file-input/file-input.html",
+        templateUrl:"./src/file-input/file-input.html",
         link: function ($scope, element) {
 
             var $dropZoneIndicator = $('.drop_indicator');
