@@ -7,7 +7,7 @@ var pianoRollDirective = function ($compile,
         scope: {
             midiData: "="
         },
-        templateUrl:"/src/piano-roll/piano-roll.html",
+        templateUrl:"./src/piano-roll/piano-roll.html",
         link: function ($scope) {
             $("body").keydown(function(event) {
                 if (event.keyCode === 32) {
